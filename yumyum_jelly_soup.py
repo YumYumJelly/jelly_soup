@@ -18,10 +18,10 @@ logging.debug('START: {}'.format(__file__))
 USAGE = '''
 使い方
 対象URL、selectタグのid又はclass名をコマンドライン引数として渡す
-test_soup.py argv[1](=URL) argv[2](=selector ('id or class'))
+yumyum_jelly_soup.py argv[1](=URL) argv[2](=selector ('id or class'))
 
 e.g.,
-test_soup.py https://www.example.com/foo/bar/ #example_id
+yumyum_jelly_soup.py https://yumyumjelly.github.io/index.html .select-list
 '''
 def com_end():
     logging.debug('END {}'.format(__file__))
