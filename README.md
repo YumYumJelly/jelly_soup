@@ -7,4 +7,4 @@
 
 **e.g.,**
 
-test_soup.py https://yumyumjelly.github.io/index.html .select-list
+yumyum_jelly_soup.py https://yumyumjelly.github.io/index.html .select-list
