@@ -4,10 +4,9 @@
 # TODO: TBU
 # 指定のプルダウンリスト（option  valueとタグ間の文字列）を表示する。
 
-import sys, os, requests, bs4, lxml
+import sys, os, datetime, logging
 import urllib.robotparser
-import datetime
-import logging
+import requests, bs4, lxml
 from openpyxl import Workbook
 
 #logging.disable(logging.DEBUG)
